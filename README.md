@@ -1,11 +1,6 @@
 # Frontend Tailwind Clone Web Novel LNMTL
  Clone webnovel frontend on tailwind
-
-##for test run
-```
-npx tailwindcss -i ./src/input.css -o ./public/css/style-dev.css
-```
-===============================
+ 
 ## Instruction QuickInstall
 ```
 1.Start run install.bat (for make folder structur and input.css)
@@ -58,4 +53,8 @@ npm run dev
 npm run realese
 
 ```
-##this is dark mode if you want change light mode change class html to blank  <html class="dark">
+##for test run
+```
+npx tailwindcss -i ./src/input.css -o ./public/css/style-dev.css
+```
+##this is default run on dark mode if you want change light mode change class html to blank  <html class="dark">
