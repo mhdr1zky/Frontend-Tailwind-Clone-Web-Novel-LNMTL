@@ -8,7 +8,7 @@ npx tailwindcss -i ./src/input.css -o ./public/css/style-dev.css
 ===============================
 ## Instruction QuickInstall
 ```
-1.Start run install (for make folder structur and input.css)
+1.Start run install.bat (for make folder structur and input.css)
 2.instal tailwind moduler
 npm i -D tailwindcss postcss autoprefixer
 3.inisiasi tailwind
