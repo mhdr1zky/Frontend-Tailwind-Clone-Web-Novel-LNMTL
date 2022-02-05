@@ -1,19 +1,36 @@
 # Frontend Tailwind Clone Web Novel LNMTL
- clone webnovel frontend on tailwind
+ Clone webnovel frontend on tailwind
 
-#for test run
+##for test run
+```
 npx tailwindcss -i ./src/input.css -o ./public/css/style-dev.css
+```
 ===============================
 ## Instruction QuickInstall
 ```
-
 1.Start run install (for make folder structur and input.css)
 2.instal tailwind moduler
 npm i -D tailwindcss postcss autoprefixer
 3.inisiasi tailwind
 npx tailwind init
 4.make router read tail edit tailwind.config.js
-   content: ['./public/**/*.{html,js}'],
+
+  module.exports = {
+  darkMode: "class",
+  content: [
+    "./public/**/*.{html,js}",
+    "./node_modules/tw-elements/dist/js/**/*.js",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        mydarkbg: "#252830",
+        mydarktext: "#cfd2da",
+      },
+    },
+  },
+  plugins: [],
+};
 
 5.edit package.json for set auto
 {
@@ -41,3 +58,4 @@ npm run dev
 npm run realese
 
 ```
+##this is dark mode if you want change light mode change class html to blank  <html class="dark">
