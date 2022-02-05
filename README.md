@@ -46,7 +46,8 @@ npx tailwind init
        </nav>
        <section></section>
    </div>
-
+8.add code on your html if development use style-dev.css down here example code but if production rewrite style-dev.css to style.css
+ : <link  rel="stylesheet" href="./css/style-dev.css"/>  
 7.running
 npm run dev
 //reasle product
