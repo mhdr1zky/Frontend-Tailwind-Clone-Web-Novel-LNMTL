@@ -1,6 +1,7 @@
 # Frontend Tailwind Clone Web Novel LNMTL
  Clone webnovel frontend on tailwind
- <br><img src="index.jpg" width="200">
+ <br><img src="index.jpg">
+ 
 ## Instruction QuickInstall
 ```
 1.Start run install.bat (for make folder structur and input.css)
