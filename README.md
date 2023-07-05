@@ -4,12 +4,12 @@
  
 ## Instruction QuickInstall
 ```
-1.Start run install.bat (for make folder structur and input.css)
+1.Start run install.bat (for make folder structure and input.css)
 2.instal tailwind moduler
 npm i -D tailwindcss postcss autoprefixer
 3.inisiasi tailwind
 npx tailwind init
-4.make router read tail edit tailwind.config.js
+4.make router read extension editable :edit tailwind.config.js
 
   module.exports = {
   darkMode: "class",
@@ -28,13 +28,13 @@ npx tailwind init
   plugins: [],
 };
 
-5.edit package.json for set auto
+5.edit package.json for set auto shortcut cmd.
 {
   "scripts": {
   "dev": "npx tailwindcss -i ./src/input.css -o ./public/css/style-dev.css --watch",
   "realese": "npx tailwindcss -o ./public/css/style.css --minify"
   },
-6.edit src stylesheet on public/css/style.css or style-dec.css for develop mode
+6.edit src stylesheet on public/css/style.css or style-dev.css for develop mode
 //add here code on body 
   <div class="container items-center mx-auto">
        <nav class="flex justify-between mt-2">
